@@ -1,1 +1,2 @@
-## leetcode in c
+## leetcode-c
+
