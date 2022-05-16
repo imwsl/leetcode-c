@@ -54,6 +54,10 @@ struct ListNode* reverse_list(struct ListNode* l) {
     return NULL;
 }
 
+void free_list(struct ListNode* l) {
+    
+}
+
 struct ListNode* addTwoNumber(struct ListNode* l1, struct ListNode* l2) {
     int len_of_l1 = length_of_list(l1);
     int len_of_l2 = length_of_list(l2);
