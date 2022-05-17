@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 16 12:08:28 2022
+# Make data base, printed on Tue May 17 11:59:09 2022
 
 # Variables
 
@@ -37,7 +37,7 @@ VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
 _ = /home/wesley/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node
 # environment
-STARSHIP_SESSION_KEY = 1022418268322332
+STARSHIP_SESSION_KEY = 3244431577380734
 # environment
 GO111MODULE = on
 # 'override' directive
@@ -65,7 +65,7 @@ GOPATH = /home/wesley/go
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-05506599-6a97-492c-9ddf-aec05cba77fa.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-0c5a4e4b-914d-46f9-8056-718668c1a57c.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -81,7 +81,7 @@ PWD = /home/wesley/c/leetcode-c
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/244_interop
+WSL_INTEROP = /run/WSL/114_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
@@ -239,6 +239,6 @@ GNUmakefile:
 # strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Mon May 16 12:08:28 2022
+# Finished Make data base on Tue May 17 11:59:09 2022
 
  

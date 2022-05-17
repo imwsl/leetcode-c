@@ -51,12 +51,26 @@ struct ListNode* create_list(int* arr, int size) {
 }
 
 struct ListNode* reverse_list(struct ListNode* l) {
-    return NULL;
+    struct ListNode* head = NULL;
+
+    while(l != NULL) {
+        struct ListNode* temp = (struct ListNode*)malloc(sizeof(struct ListNode));
+        temp->val = l->val;
+        if (head == NULL) {
+            head = temp;
+            head->next = NULL;
+        } else {
+            temp->next = head;
+            head = temp;
+        }
+
+        l = l->next;
+    }
+
+    return head;
 }
 
-void free_list(struct ListNode* l) {}
-
-struct ListNode* addTwoNumber(struct ListNode* l1, struct ListNode* l2) {
+struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     int len_of_l1 = length_of_list(l1);
     int len_of_l2 = length_of_list(l2);
     int min_len = len_of_l1 < len_of_l2 ? len_of_l1 : len_of_l2;
@@ -116,13 +130,21 @@ struct ListNode* addTwoNumber(struct ListNode* l1, struct ListNode* l2) {
 
 int main() {
     
-    int arr1[5] = {1, 2, 3, 4, 5};
-    int arr2[] = {1, 2, 9};
-    struct ListNode* l1 = create_list(arr1, 5);
-    struct ListNode* l2 = create_list(arr2, 3);
-
-    struct ListNode* head = addTwoNumber(l1, l2);
+    int arr1[] = {2, 4, 3};
+    int arr2[] = {5, 6, 4};
+    struct ListNode* head = addTwoNumbers(create_list(arr1, 3), create_list(arr2, 3));
     puts_list(head);
+    printf("\n---------------------\n");
+
+    int arr3[] = {0};
+    int arr4[] = {0, 1};
+    puts_list(addTwoNumbers(create_list(arr3, 1), create_list(arr4, 2)));
+
+    printf("\n---------------------\n");
+
+    int arr5[] = {0};
+    int arr6[] = {0};
+    puts_list(addTwoNumbers(create_list(arr5, 1), create_list(arr6, 1)));
 
     return 0;
 }
