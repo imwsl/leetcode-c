@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue May 17 11:59:09 2022
+# Make data base, printed on Wed Jun  1 19:21:23 2022
 
 # Variables
 
@@ -35,9 +35,9 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
-_ = /home/wesley/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node
+_ = /home/wesley/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/node
 # environment
-STARSHIP_SESSION_KEY = 3244431577380734
+STARSHIP_SESSION_KEY = 1344021763220448
 # environment
 GO111MODULE = on
 # 'override' directive
@@ -51,7 +51,7 @@ GOPROXY = https://goproxy.cn
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/wesley/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/home/wesley/.rbenv/shims:/home/wesley/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/home/wesley/node/node-v16.14.0-linux-x64/bin:/home/wesley/.local/bin:/home/wesley/.envs/go/bin
+PATH = /home/wesley/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/home/wesley/.rbenv/shims:/home/wesley/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/home/wesley/node/node-v16.14.0-linux-x64/bin:/home/wesley/.local/bin:/home/wesley/.envs/go/bin
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
@@ -65,7 +65,7 @@ GOPATH = /home/wesley/go
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-0c5a4e4b-914d-46f9-8056-718668c1a57c.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-7ebf651d-ba00-402f-b382-64925b3ea2a5.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -81,7 +81,7 @@ PWD = /home/wesley/c/leetcode-c
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/114_interop
+WSL_INTEROP = /run/WSL/10518_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
@@ -121,7 +121,7 @@ LESS = -R
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Wesley/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.2
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Wesley/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.3
 # default
 MAKE_COMMAND := make
 # environment
@@ -181,9 +181,9 @@ STARSHIP_SHELL = zsh
 
 # Directories
 
-# . (device 2080, inode 8482): 8 files, no impossibilities.
+# . (device 2080, inode 8482): 10 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -233,12 +233,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 152 B / avg = 9 B
-# current buf: size = 8162 B / used = 152 B / count = 16 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 232 B / avg = 12 B
+# current buf: size = 8162 B / used = 232 B / count = 18 / avg = 12 B
 
-# strcache performance: lookups = 19 / hit rate = 15%
+# strcache performance: lookups = 21 / hit rate = 14%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Tue May 17 11:59:09 2022
+# Load=18/8192=0%, Rehash=0, Collisions=1/21=5%
+# Finished Make data base on Wed Jun  1 19:21:23 2022
 
  
