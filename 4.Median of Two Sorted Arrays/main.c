@@ -1,27 +1,45 @@
 #include <stdio.h>
-#include <stdbool.h>
+#include <stdlib.h>
 
-bool is_odd(int num) {
-  if (num % 2 == 0) return true;
-  return false;
+//void swap(arr, )
+
+int partion(int* arr, int left, int right) {
+	int pivot = left;
+	int index = pivot + 1;
+	
+	for (int i = index; i <= right; i++) {
+		if (arr[i] < arr[pivot]) {
+		}
+	}
+	return 0;
 }
 
-int find_min_
-
-double find_odd_median_num(int* nums1, int nums1Size, int* nums2, int nums2Size) {
-
+void quickSort(int* arr, int left, int right) {
+	int index = partion(arr, left, right);
+	quickSort(arr, left, index - 1);
+	quickSort(arr, index + 1, right);
+	
 }
 
-double find_even_median_num(int* nums1, int nums1Size, int* nums2, int nums2Size) {}
+int* makeNewArray(int* nums1, int nums1Size, int* nums2, int nums2Size) {
+	int* newArr = (int*)malloc(sizeof(int) * (nums1Size + nums2Size));
+	
+	for (int i = 0; i < nums1Size + nums2Size; i ++) {
+		
+		if (i < nums1Size) {
+			newArr[i] = nums1[i];
+		} else {
+			newArr[i] = nums2[i - nums1Size];
+		}
+	}
+
+	// quick sort...
+	quickSort(newArr, 0, nums1Size + nums2Size - 1);
+
+	return newArr;
+}
 
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size) {
-  if (true == is_odd(nums1Size + nums2Size)) {
-
-    return find_odd_median_num(nums1, nums1Size, nums2, nums2Size);
-  } else {
-
-    return find_even_median_num(nums1, nums1Size, nums2, nums2Size);
-  }
 }
 
 int main() {
